@@ -30,8 +30,8 @@
 </object>
 ```
 
-## _Demo_
-<iframe width="560" height="315" src="https://youtu.be/zq-frk10nP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## _Demo on YouTube_
+https://youtu.be/zq-frk10nP4
 
 ## _Example_
 ```sh
