@@ -1,6 +1,35 @@
 # JOParser2.0 - Java Object - XML serializer
 ## Java encapsulated objects serialize into XML format and reverse.
 
+## _Sample Output_
+```sh
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="examples.Doc1">
+   <param>
+      <name>name</name>
+      <object class="java.lang.String">a1</object>
+   </param>
+   <param>
+      <name>doc</name>
+      <object class="examples.Doc2">
+         <param>
+            <name>name</name>
+            <object class="java.lang.String">b1</object>
+         </param>
+         <param>
+            <name>doc</name>
+            <object class="examples.Doc3">
+               <param>
+                  <name>name</name>
+                  <object class="java.lang.String">c1</object>
+               </param>
+            </object>
+         </param>
+      </object>
+   </param>
+</object>
+``
+
 ## _Example_
 ```sh
 public class JOParserExample {
