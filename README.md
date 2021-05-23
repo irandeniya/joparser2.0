@@ -48,16 +48,16 @@ public class JOParserExample {
         String tx = jop.Parser.getParser().createXMLForObject(dc);
         System.out.println(tx);
         # output: 
-        <object class="examples.Doc1"><param><name>name</name><object class="java.lang.String">a1</object></param><param><name>doc</name><object class="examples.Doc2"><param><name>name</name><object class="java.lang.String">b2</object></param><param><name>doc</name><object class="examples.Doc3"><param><name>name</name><object class="java.lang.String">c3</object></param></object></param></object></param></object>      
+        # <object class="examples.Doc1"><param><name>name</name><object class="java.lang.String">a1</object></param><param><name>doc</name><object class="examples.Doc2"><param><name>name</name><object class="java.lang.String">b2</object></param><param><name>doc</name><object class="examples.Doc3"><param><name>name</name><object class="java.lang.String">c3</object></param></object></param></object></param></object>      
 
         Doc1 nw1 = (Doc1) jop.Parser.getParser().createObjectForXML(tx);
         System.out.println(nw1.getName());
         System.out.println(nw1.getDoc().getName());
         System.out.println(nw1.getDoc().getDoc().getName());
         #output: 
-        a1
-        b2
-        c3
+        # a1
+        # b2
+        # c3
     }
 }
 ```
